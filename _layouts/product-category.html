@@ -11,10 +11,18 @@ show_sidebar: false
 
   {% assign items = page.pdfs %}
 
-  {% for pdf in items %}
+  {% for pdf in page.pdfs %}
   <div class="column is-4-desktop is-6-tablet">
 
     <div class="card">
+
+      {% if pdf.image %}
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="{{ pdf.image | relative_url }}" alt="{{ pdf.name }}">
+        </figure>
+      </div>
+      {% endif %}
 
       <div class="card-content">
 
@@ -23,7 +31,6 @@ show_sidebar: false
         <div class="buttons">
           <a href="{{ pdf.file | relative_url }}"
              target="_blank"
-             rel="noopener noreferrer"
              class="button is-small is-primary">
             Open PDF
           </a>

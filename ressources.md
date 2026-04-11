@@ -5,8 +5,10 @@ layout: product-category
 pdfs:
   - name: Report
     file: /assets/pdfs/PNDS-MPI-CDG.pdf
+    image: /assets/images/PDNS-MPI-CDG.png
   - name: Appendix
     file: /assets/pdfs/Suivi-patients.pdf
+    image: /assets/images/Suivi-patients.png
 show_sidebar: false
 sort: price
 ---
