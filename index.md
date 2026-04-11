@@ -1,13 +1,11 @@
 ---
-title: My new book title!
-subtitle: Example promo page
+title: MPI-CDG
+subtitle: Accueil
 layout: promo-page
 snippet: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis volutpat dignissim.
-
-  Pellentesque facilisis non urna a suscipit. Aenean et accumsan lorem. Donec diam ex, egestas at fermentum at, sagittis at diam. Nulla vitae lectus nec nulla faucibus gravida.
+  Hello et bienvenue! Je m'appelle Aline et je vis avec le MPI-CDG depuis ma naissance. Ce site a pour but de rassembler les personnes atteintes de cette maladie et leurs proches pour pouvoir partager nos expériences et se connecter.
 hero_link: '#'
-hero_link_text: Buy now!
+hero_link_text: Écrivez-moi !
 hero_image: https://picsum.photos/id/171/800/1000
 hero_image_alt: The hero image alt text
 hero_image_ratio: is-4by5
