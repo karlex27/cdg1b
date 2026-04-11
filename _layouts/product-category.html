@@ -2,35 +2,38 @@
 layout: default
 show_sidebar: false
 ---
+
 <div class="columns is-multiline">
-    <div class="column is-12">
-        {{ page.content }}
+
+  <div class="column is-12">
+    {{ page.content }}
+  </div>
+
+  {% assign items = page.pdfs %}
+
+  {% for pdf in items %}
+  <div class="column is-4-desktop is-6-tablet">
+
+    <div class="card">
+
+      <div class="card-content">
+
+        <p class="title is-5">{{ pdf.name }}</p>
+
+        <div class="buttons">
+          <a href="{{ pdf.file | relative_url }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="button is-small is-primary">
+            Open PDF
+          </a>
+        </div>
+
+      </div>
+
     </div>
 
-    {% if page.collection %}
-        {% assign sorted_products = site[page.collection] | sort: page.sort %}
-    {% else %}
-        {% assign sorted_products = site.products | sort: page.sort %}
-    {% endif %}
+  </div>
+{% endfor %}
 
-    {% for product in sorted_products %}
-        <div class="column is-4-desktop is-6-tablet">
-            <a href="{{ product.url | relative_url }}" class="category-product">
-                <div class="card">
-                    {% if product.image %}
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="{{ product.image }}" alt="{{ product.title }}">
-                            </figure>
-                        </div>
-                    {% endif %}
-                    <div class="card-content">
-                        <p class="title is-4">{{ product.title }}</p>
-                        <p class="subtitle is-4">{{ product.subtitle }}</p>
-                        <p class="title is-5 has-text-right">{{ product.price }}</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    {% endfor %}
 </div>
