@@ -6,23 +6,19 @@ snippet: |-
   Hello et bienvenue! Je m'appelle Aline et je vis avec le MPI-CDG depuis ma naissance. Ce site a pour but de rassembler les personnes atteintes de cette maladie et leurs proches pour pouvoir partager nos expériences et se connecter.
 hero_link: '#'
 hero_link_text: Écrivez-moi !
-hero_image: https://picsum.photos/id/171/800/1000
+hero_image: img/rose.jpg
 hero_image_alt: The hero image alt text
 hero_image_ratio: is-4by5
-about_image: https://i.pravatar.cc/400?img=24
+about_image: img/piano.jpg
 about_image_alt: The about image alt text
-about_title: About the author
-product_code: ABC123
+about_title: Qui suis-je?
+#product_code: ABC123
 ---
 
-Donec semper nunc quis quam elementum sodales. Vestibulum eget eros vel odio cursus posuere non nec felis. Nunc porta justo odio, in posuere turpis porttitor id. Morbi fringilla, nisi quis facilisis lobortis, eros sem venenatis arcu, vitae varius est felis eu leo. Donec eleifend sapien in arcu mollis egestas. Fusce consectetur nibh in leo elementum cursus.
+ Je suis la sixième d’une famille peu commune : la famille du MPI-CDG. Les premiers symptômes sont apparus dès l’âge de 3 mois et j’ai été hospitalisée à l’âge de 6 mois pour en ressortir à 1 an. Durant cette hospitalisation, j’ai commencé le traitement au D-mannose avec quatre prises quotidiennes. Au fil des années s’est également rajouté le propranolol, pour pouvoir maîtriser l’hypertension portale. Ayant été l’une des premières patientes française à être diagnostiquée, mon parcours médical a été semé d’hospitalisations et de fibroscopies.
 
-Etiam in neque quis quam tristique bibendum eu eu lorem. Nulla facilisi. Morbi cursus lacinia suscipit. Maecenas accumsan purus urna, sit amet finibus ligula pellentesque eu. Vivamus risus dui, sagittis id est nec, volutpat rhoncus orci. Nulla fermentum aliquet lectus at congue. Aenean congue elementum libero nec suscipit. Phasellus sed diam ex. Integer et posuere sem.
+### Le MPI-CDG, c'est quoi?
 
-### Maecenas lacinia lobortis lacus sed gravida
+Le MPI-CDG, qui est un défaut de glycosylation, est une maladie génétique encore très peu connue. On estime à moins de 100 le nombre de patient·e·s à travers le monde. Elle se caractérise par le déficit d’une enzyme importante dans la production de mannose. Les conséquences de ce déficit sont variées, telles que la diarrhée, la splénomégalie, l’hépatomégalie, l’hypertension portale ainsi qu’une fibrose hépatique.
 
-Nunc in nisl at purus mollis vulputate. Sed tincidunt tincidunt risus eget iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum vehicula maximus. Praesent convallis in lectus sit amet viverra. Etiam nec semper dolor, ut varius tortor. Aliquam at varius erat, non tempor urna. Maecenas porta porta nibh. 
 
-### Creating a promo page
-
-See the documentation for [creating a promo page](/bulma-clean-theme/docs/promo-pages/creating-a-promo-page).
