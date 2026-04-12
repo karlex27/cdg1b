@@ -28,7 +28,6 @@ disqus:
 
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
@@ -94,5 +93,5 @@ social:
   x: https://www.x.com/
   youtube: https://www.youtube.com/
   
-# theme: bulma-clean-theme
-emote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme
