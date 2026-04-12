@@ -1,10 +1,10 @@
-# frozen_string_literal: true
+# # frozen_string_literal: true
 
-source "https://rubygems.org"
+# source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "bulma-clean-theme", "1.0.0"
-gem "github-pages", group: :jekyll_plugins
+# gem "jekyll", "~> 4.3"
+# gem "bulma-clean-theme", "1.0.0"
+# # gem "github-pages", group: :jekyll_plugins
 
 # group :jekyll_plugins do
 #     gem "jekyll-feed", "~> 0.6"
@@ -15,3 +15,6 @@ gem "github-pages", group: :jekyll_plugins
 #     gem "sass-embedded", "~> 1.63"
 # end
 
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
