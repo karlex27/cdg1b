@@ -34,7 +34,6 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
-  - jekyll-remote-theme
 
 exclude: 
   - Gemfile
@@ -94,5 +93,5 @@ social:
   x: https://www.x.com/
   youtube: https://www.youtube.com/
   
-# theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme
