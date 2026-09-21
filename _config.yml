@@ -5,7 +5,7 @@ tagline: MPI-CDG
 email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/cdg1b"
+baseurl: ""
 url: "http://www.mpi-cdg.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
