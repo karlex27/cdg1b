@@ -4,7 +4,7 @@ subtitle: Accueil
 layout: promo-page
 snippet: |-
   Hello et bienvenue! Je m'appelle Aline et je vis avec le MPI-CDG depuis ma naissance. Ce site a pour but de rassembler les personnes atteintes de cette maladie et leurs proches pour pouvoir partager nos expériences et se connecter.
-hero_link: '#'
+hero_link: 'mailto:mpi.cdg@gmail.com'
 hero_link_text: Écrivez-moi !
 hero_image: img/rose.jpg
 hero_image_alt: The hero image alt text
